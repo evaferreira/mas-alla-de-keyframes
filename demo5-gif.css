@@ -1,0 +1,42 @@
+/* video23.css */
+
+.bg{
+	max-width: 1000px;
+	height: 560px;
+	overflow: hidden;
+	margin: 50px auto;
+	position: relative;
+}
+
+.video1, .video2{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.video2{
+	mix-blend-mode: soft-light;
+	filter: invert(0);
+	top: -150px;
+	opacity: 0;
+	animation: aparecer 3s 7s;
+	transition: filter 0.7s;
+}
+.video2:hover{
+	filter: invert(1);
+}
+
+.invertido{
+	transform: scaleX(-1) rotate(45deg);
+	animation: aparecer 3s 15s;
+}
+
+@keyframes aparecer{
+	50%{
+		opacity: 1;
+	}
+}
+
+
+

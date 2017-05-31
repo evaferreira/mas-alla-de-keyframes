@@ -1,0 +1,24 @@
+/* video.css  */
+
+.bg-img{
+	background-image: url("../hard-times.jpg");
+	background-size: cover;
+	min-height: 500px;
+	max-width: 1000px;
+	margin: 50px auto;
+	display: flex;
+}
+
+.video1{
+	width: 50%;
+	transition: clip-path 0.5s;
+	clip-path: ellipse(60px 42px at 85% 50%);
+}
+.video1:hover{
+	clip-path: ellipse(65px 92px at 85% 50%);
+}
+.video2{
+	width: 50%;
+	clip-path: ellipse(60px 42px at 83% 48%);
+	transform: scaleX(-1);
+}
