@@ -1,7 +1,7 @@
 /* video.css  */
 
 .bg-img{
-	background-image: url("../hard-times.jpg");
+	background-image: url("hard-times.jpg");
 	background-size: cover;
 	min-height: 500px;
 	max-width: 1000px;
